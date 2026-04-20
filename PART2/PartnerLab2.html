@@ -1,0 +1,46 @@
+<html data-theme="orig">
+
+<head>
+<title>Partner Lab 2 by HannahB</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<H1 id="welcome">Hello! Welcome </H1>
+<div class="center-div">
+<p id="message">This is a brief message text paragraph. This is the default message, but please feel free to update.</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+<label for="entername">Enter your name: </label>
+<input type="text" id="entername">
+</div>
+<br>
+<br>
+<div>
+<label for="textInput" class="align-middle">Enter your new message to display: </label>
+<textarea id="textInput" rows="3" cols="50" class="align-middle"></textarea>
+</div>
+<br>
+<br>
+<label for="colorchoice">Choose a background color:</label>
+<select id="colorchoice">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="orig">Reset to Original</option>
+</select>
+<br>
+<br>
+<br>
+<br>
+  <button class="button" onclick="resetScreen()">Submit Changes</button>
+<footer><button onclick="history.back()">Go Back</button></footer>
+<script src="script.js"></script>
+
+</body>
+</html>

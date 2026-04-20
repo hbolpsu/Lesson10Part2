@@ -1,0 +1,93 @@
+/* styles.css: This is a comment in CSS */
+
+body {
+    font-family: Noto Sans;
+    background-color: #FFFFFF;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    color: #7B3F00;
+    text-align: center;
+}
+
+
+p {
+    font-size: 16px;
+    color: #996515;
+    line-height: 1.5;
+}
+
+.center-div {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo-left {
+  float: left;
+  margin-right: 15px; 
+  width: 200px; 
+}
+#logo-text {
+   font-family: Dancing Script;
+   color: #H7B3F00;
+   width: 700px;
+   font-size:30px;
+}
+#center-div {
+    text-align: center;
+}
+.button {
+   background-color: #EFDECD;
+   color: #7B3F00;
+   border-color: #7B3F00;
+   text-align: center;
+   margin: 10px;
+   
+}
+.hide {
+  display: none;
+}
+.unhide:hover + .hide {
+  display: block; 
+  color:red;
+}
+#contact-page {
+        font-family: Federant;
+        text-align: center;
+        border: 10px solid #7B3F00;
+        background-color: #EFDECD;
+        margin: 0; 
+        padding: 20px;
+        margin-bottom: 200px;
+        margin-left: 70px;
+        margin-right: 70px;
+        box-sizing: border-box;   
+}
+#contact-page div {
+  margin-bottom: 30px; 
+}
+
+#contact-page #center-div2 {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 500px;
+}
+
+#list-img {
+            width: 200px;
+            height: 150px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #008080;
+        }
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}

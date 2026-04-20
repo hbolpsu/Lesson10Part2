@@ -1,0 +1,145 @@
+/* styles.css: This is a comment in CSS */
+
+body {
+    font-family: Noto Sans;
+    background-color: #FFFFFF;
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    color: #C7EA46;
+    text-align: center;
+}
+
+
+p {
+    font-size: 16px;
+    color: #4CBB17;
+    line-height: 1.5;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+
+.center-div {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo-left {
+  float: left;
+  margin-right: 15px; 
+  width: 200px; 
+}
+#logo-text {
+   font-family: Dancing Script;
+   color: #4CBB17;
+   width: 700px;
+   font-size:30px;
+}
+#center-div {
+    text-align: center;
+}
+.button {
+   background-color: #EFDECD;
+   color: #4CAF50;
+   border-color: #4CAF50;
+   text-align: center;
+   margin: 10px;
+   
+}
+
+.album-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.album-item {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.album-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+.album-item:hover {
+    transform: scale(1.1) translateY(20px); 
+}
+
+.instock-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #4CAF50;
+}
+.instock-table th {
+            border: 1px solid #4CAF50;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+.instock-table td {
+            border: 1px solid #4CAF50;
+            padding: 8px;
+            text-align: left;
+            vertical-align: middle;
+        }
+.instock-table img {
+            height: 150px;
+            vertical-align:middle;
+            text-align:center;
+        }
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
+    width: 800px;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    /* This is crucial: sets the positioning context for the absolute child */
+    position: relative; 
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+    position: absolute; 
+    top: -5px;   
+    right: -5px; 
+    font-size: 0.8em;
+}
+.serviceposition {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

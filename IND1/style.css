@@ -1,0 +1,55 @@
+/* styles.css: This is a comment in CSS */
+
+/* Style for the body element (background color and font) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D1FFBD;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style for H1 headings (color and alignment) */
+h1 {
+    color: #006400;
+    text-align: center;
+}
+h2 {
+    color: #006400;
+    text-align: left;
+}
+
+/* Style for paragraph elements (font size and line spacing) */
+p {
+    font-size: 16px;
+    color: #006400;
+    line-height: 1.5;
+}
+ul {
+    font-size: 16px;
+    color: #006400;
+    line-height: 1.5;
+}
+ol {
+    font-size: 16px;
+    color: #006400;
+    line-height: 1.5;
+}
+img {
+            width: 200px;
+            height: 150px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #008080;
+        }
+
+#center-div {
+    text-align: center;
+}
+
+/* Style for elements with the class 'container' (background color and padding) */
+.container {
+    background-color: #D1FFBD;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

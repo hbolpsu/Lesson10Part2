@@ -1,0 +1,79 @@
+/* styles.css: This is a comment in CSS */
+
+
+body {
+    font-family: Noto Sans;
+    background-color: var(--b-color);
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    color: var(--t-color);
+    text-align: center;
+}
+
+
+p {
+    font-size: 16px;
+    color: var(--t-color);
+    line-height: 1.5;
+}
+
+label {
+    font-size: 16px;
+    color: var(--t-color);
+    line-height: 1.5;
+}
+
+.center-div {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.align-middle {
+  vertical-align:middle;
+}
+label.align-middle,
+textarea.align-middle {
+  display: inline-block;
+}
+
+
+.button {
+   background-color: var(--but-color);
+   color: var(--bt-color);
+   border-color: var(--t-color);
+   text-align: center;
+   margin: 10px;
+   
+}
+
+html[data-theme='orig'] {
+ --b-color: #FDFCE8;
+ --t-color: #996515;
+ --bt-color: #FFFFFF;
+ --but-color: #7B3F00;
+}
+
+html[data-theme='red'] {
+ --b-color: #D30000;
+ --t-color: #FFFFFF;
+ --bt-color: #FFFFFF;
+ --but-color: #CD5C5C;
+}
+
+html[data-theme='blue'] {
+ --b-color: #0018F9;
+ --t-color: #FFFFFF;
+ --bt-color: #131E3A;
+ --but-color: #89CFEF;
+}
+
+html[data-theme='green'] {
+ --b-color: #3BB143;
+ --t-color: #043927;
+ --but-color: #98FB98;
+}
